@@ -1,1 +1,32 @@
+programa {
+  funcao inicio() {
+    //declarei as variáveis, o tipo e coloquei o nome para elas
+    real saldo_disponivel
+    real valor_saque 
+
+    // acredito que em um sistema real, o saldo viria do banco de dados do banco.
+   // vou simular esse valor do saque pedindo que o usuário informe.
+   
+    escreva("Informe o saldo disponível na conta: ")
+    leia(saldo_disponivel)
+
+    escreva("Informe o valor que deseja sacar: ")
+    leia(valor_saque)
+
+    se (valor_saque <= saldo_disponivel) {
+     //declarei minhas condicionais de verdadeiro ou falso 
+    //declarei um decremento que pega o valor recebido do saldo e subtrai e gera um valor novo a variável saldo
+      saldo_disponivel = saldo_disponivel - valor_saque
+
+      escreva("Saque Autorizado!")
+      escreva("Entregando as notas...")
+      escreva("\n Saldo restante:", saldo_disponivel)
+      //A quebra de linha usei para separar das outras strings e deixar esteticamente bonito 
+    }
+
+    senao {
+      escreva("Saldo insuficiente para realizar o saque.")
+    }
+  }
+}
 
