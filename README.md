@@ -38,3 +38,20 @@ Postar agora?
 
 
   _________________//___________________
+
+
+--execicio_saque.txt--
+
+INÍCIO
+   |
+Ler saldo_disponivel
+   |
+Ler valor_saque
+   |
+valor_saque <= saldo_disponivel ?
+   | SIM ----------------> Atualiza o saldo e
+   |                      Entrega notas
+   |
+   | NÃO ----------------> Mostrar "Saldo insuficiente"
+   |
+  FIM
