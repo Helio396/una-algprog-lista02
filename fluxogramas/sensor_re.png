@@ -1,1 +1,25 @@
+programa {
+  funcao inicio() {
+    real distancia
+    //Eu declaro minha variável que recebe em casas decimais por isso o codigo "real"
+    //
+    escreva("Informe a distância detectada pelo sensor (em metros): ")
+    //Saida(pergunta para o usuário) para receber a informação da distância 
+    leia(distancia)
+    //Entrada das informações para a geração das condicionais
+     se (distancia < 0.5) {
+      escreva("BIIIIIIIIIP  PARE")
+     }
+     //Estou adicionando mais uma condição para ter mais de duas condições 
+      senao se (distancia >= 0.5 e distancia <= 2) { 
+        //A palavra "e" no código acima serve para combinar duas condições no código "senao se"
+          escreva("Bip... Bip... Bip...") 
+      }
+      //Se for aceito nenhuma das duas condições o algoritmo exibirá a ultima das condições  
+      senao
+         escreva("Sem som")
+     }
+
+  }
+}
 
