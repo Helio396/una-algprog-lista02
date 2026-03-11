@@ -12,7 +12,7 @@ programa {
      }
      //Estou adicionando mais uma condição para ter mais de duas condições 
       senao se (distancia >= 0.5 e distancia <= 2) { 
-        //A palavra "e" no código acima serve para combinar duas condições no código "senao se"
+        //A palavra "e" no código acima serve para combinar dois critérios no condicional "senao se"
           escreva("Bip... Bip... Bip...") 
       }
       //Se for aceito nenhuma das duas condições o algoritmo exibirá a ultima das condições  
