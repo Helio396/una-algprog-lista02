@@ -18,6 +18,23 @@ Sem som
    |
   FIM
 
-  -------------------
+  _________________//____________________
 
-  --
+  --filtro_insta.png--
+
+  INÍCIO
+   |
+Usuário escolhe foto
+   |
+Aplicar filtro P&B?
+   | SIM ------> Aplicando filtro preto e branco
+   | NÃO -----> Mantendo a foto original
+   |
+Postar agora?
+   | SIM ------> Enviando foto para o servidor
+   | NÃO -----> Salvando foto na galeria
+   |
+  FIM
+
+
+  _________________//___________________
