@@ -1,1 +1,42 @@
+programa {
+  funcao inicio() {
+      escreva("Foto selecionada com sucesso\n")
+      //Mandando mensagem pro usuário 
+        inteiro aplicarFiltro
+        inteiro postarAgora
+      //declarei duas variáveis para rodar dois programas em sequência 
+      escreva("Aplicar Filtro P&B: \n 1-sim\n 2-não\n")
+      leia(aplicarFiltro)
+      //saida, o usuário responde e o código vai rodar as condicionais
+        se(aplicarFiltro == 1) {
+          escreva("Aplicando filtro preto e branco...")
+        }
+      //usei "==" para indicar que é igual e não atribuição como ao descrever "="
+        senao se(aplicarFiltro == 2) {
+          escreva("Mantendo a foto original.")
+        }
+      //adicionando mais uma condicional como pode ver acima
+        senao {
+          escreva("Opção invalida!")
+        }
+      //se não ocorrer nenhuma das condicionais que no caso é só duas opções, se escolher por exemplo 3 vai gerar opção inválida
+
+
+      escreva("\nPostar agora? \n 1-sim\n 2-não\n")
+      leia(postarAgora)
+      //Da mesma forma acontece com o resto da escrita
+
+         se(postarAgora == 1) {
+          escreva("Enviando foto para o servidor...")
+         }
+
+         senao se(postarAgora == 2) {
+          escreva("Salvando foto na galeria...")
+         }
+
+         senao {
+          escreva("Opção invalida!")
+         }
+  } 
+}
 
