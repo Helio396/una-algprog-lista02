@@ -17,7 +17,7 @@ flowchart TD
 
 A[Início] --> B[Ler distancia_obstaculo]
 
-B --> C{distancia_obstaculo <= 0.5}
+B --> C{distancia_obstaculo <= 0.5?}
 
 C -- Sim --> D[Emitir alerta sonoro]
 D --> E[Mostrar "PARE"]
