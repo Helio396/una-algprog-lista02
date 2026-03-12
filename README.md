@@ -1,3 +1,10 @@
+Olá meu nome é Hélio dos Santos Mendonça
+
+Estou começando a todo vapor na prograprogramação e tentando aprender com meus erros e
+me adaptar aos cenários que irei enfrentar.
+
+Embaixo se encontra a documentação dos meus projetos deste repositório:
+
 # Algoritmo – Sensor de Ré de Veículo
 
 ## Descrição
